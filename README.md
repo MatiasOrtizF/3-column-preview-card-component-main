@@ -41,5 +41,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Matias Ortiz](https://portafolio-matias-ortiz.000webhostapp.com/)
+- Website - [Matias Ortiz](https://portafolio-matias-ortiz.000webhostapp.com)
 - Frontend Mentor - [@mat1asortiz](https://www.frontendmentor.io/profile/mat1asortiz)
