@@ -38,6 +38,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- CSS Media Queries
 
 ## Author
 

@@ -10,9 +10,9 @@
     --veryDarkCyan: hsl(179, 100%, 13%);
     
     /* Neutral */
-/*     (paragraphs) */
+    /* paragraphs */
     --transparentWhite: hsla(0, 0%, 100%, 0.75);
-/* (background, headings, buttons) */
+    /* background/ headings/ buttons */
     --veryLightGray: hsl(0, 0%, 95%);
 
     /*fonts*/
@@ -28,6 +28,7 @@ body {
     color: var(--veryLightGray);
 }
 
+/* GLOBALES */
 img {
     width: 4em;
 }
@@ -61,10 +62,17 @@ a {
     font-size: 1.1em;
 }
 
+/* CLASES */
+.attribution {
+    margin: 30px auto;
+    padding: 0 30px;
+}
 .grid {
     max-width: 1000px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .contenido {
@@ -96,4 +104,24 @@ a {
 
 .luxury a {
     color: var(--veryDarkCyan);
+}
+
+/* DISEÑO ADAPTATIVO*/
+@media (max-width: 480px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .contenido {
+        padding: 40px;
+    }
+    h2 {
+        margin: 0.5em 0px;
+    }
+    p {
+        margin-bottom: 1.1em;
+    }
+    .attribution {
+        margin: 80px auto;
+    }
 }
